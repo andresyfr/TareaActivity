@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contactos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.andresyfr.tareaactivity.ContactosActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text="@string/mA_Titulo"
+                android:ems="10"
+                android:id="@+id/editText5"
+                android:textAlignment="center"
+                android:textStyle="normal|bold"
+                android:fontFamily="casual"
+                android:textAllCaps="false"
+                android:textSize="@dimen/aC_titulo"
+                android:textIsSelectable="false"
+                android:editable="false"
+                android:selectAllOnFocus="false"
+                android:focusable="false"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:text="@string/mA_nombre"
+                    android:ems="10"
+                    android:id="@+id/editText8"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/aC_titulosDesc"
+                    android:editable="false"
+                    android:selectAllOnFocus="false"
+                    android:focusable="false"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Name"
+                    android:ems="10"
+                    android:id="@+id/Nombre"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:textIsSelectable="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:text="@string/mA_Nacimiento"
+                    android:ems="10"
+                    android:id="@+id/editText6"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/aC_titulosDesc"
+                    android:editable="false"
+                    android:selectAllOnFocus="false"
+                    android:focusable="false"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Name"
+                    android:ems="10"
+                    android:id="@+id/fechaNacimiento"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:textIsSelectable="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:text="@string/mA_Telefono"
+                    android:ems="10"
+                    android:id="@+id/editText10"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/aC_titulosDesc"
+                    android:editable="false"
+                    android:selectAllOnFocus="false"
+                    android:focusable="false"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Name"
+                    android:ems="10"
+                    android:id="@+id/Telefono"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:textIsSelectable="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:text="@string/mA_email"
+                    android:ems="10"
+                    android:id="@+id/editText12"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/aC_titulosDesc"
+                    android:editable="false"
+                    android:selectAllOnFocus="false"
+                    android:focusable="false"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Name"
+                    android:ems="10"
+                    android:id="@+id/Email"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:textIsSelectable="true" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:text="@string/mA_Descripcion"
+                    android:ems="10"
+                    android:id="@+id/editText16"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/aC_titulosDesc"
+                    android:editable="false"
+                    android:selectAllOnFocus="false"
+                    android:focusable="false"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Name"
+                    android:ems="10"
+                    android:id="@+id/Descripcion"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:textIsSelectable="true" />
+
+            </LinearLayout>
+
+            <Button
+                android:text="@string/mA_textBotonEditar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button6"
+                android:layout_marginTop="30dp"
+                android:theme="@style/MiBotonRaised" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

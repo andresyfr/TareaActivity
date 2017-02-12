@@ -1,0 +1,10 @@
+<resources>
+    <string name="mA_Titulo">Confirmar Datos</string>
+    <string name="app_name">TareaActivity</string>
+    <string name="mA_nombre">Nombre Completo</string>
+    <string name="mA_Nacimiento">Fecha Nacimiento</string>
+    <string name="mA_Telefono">Teléfono</string>
+    <string name="mA_email">E-Mail</string>
+    <string name="mA_Descripcion">Descripción Contacto</string>
+    <string name="mA_textBotonEditar">Editar Datos</string>
+</resources>
